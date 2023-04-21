@@ -1,0 +1,129 @@
+* {
+    font-family: 'inter';
+}
+
+body {
+    background-color: rgba(161,195,255,255);
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family: 'inter';
+    src: url('../assets/fonts/Inter-Bold.ttf');
+    font-weight: bold;
+}
+
+  @font-face {
+    font-family: 'inter';
+    src: url('../assets/fonts/Inter-ExtraBold.ttf');
+    font-weight: bolder;
+}
+  @font-face {
+    font-family: 'inter';
+    src: url('../assets/fonts/Inter-Regular.ttf');
+    font-weight: normal;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.site-header {
+    display: flex;
+    width: 100%;
+    background-color: rgba(52,116,230,255);
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-wrapper .menu-item{
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+}
+
+.nav-wrapper .menu-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.body-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: rgba(33,81,204,255);
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    color: white;
+    align-items: start;    
+}
+
+.text-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-bottom: 20%;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.body-content p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.footer-container {
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+.box {
+    background-color: rgba(33,81,204,255);
+    border-radius: 10px;
+    width: 250px;
+    padding: 25px 25px 0px 25px;
+    box-shadow: 0px 18px 25px rgba(0, 0, 0, 0.1);
+}
+
+.box p {
+    color: rgba(255, 255, 255, 0.938);
+    line-height: 23px;
+}
+
+.text-icon {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}
